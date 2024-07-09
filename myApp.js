@@ -62,5 +62,5 @@ app.get("/", function (request, response) {
 });
 let port = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log('Useful Programmer Info Security App started on port ${PORT}');
+  console.log(`Useful Programmer Info Security App started on Port ${port}`);
 });
